@@ -14,7 +14,7 @@ export default function Home({data}) {
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
-          <p>UX designer and web developer.</p>
+          <p>This website was built with Gatsby.js and deployed with Github and Netlify!</p>
           <Link className={styles.btn} to='/projects'>My Portfolio</Link>
         </div>
         <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} alt='banner image.'/>
